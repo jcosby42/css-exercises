@@ -20,8 +20,25 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
+/*Do this in header properties*/
+.left, .right{
+  padding: 4px;
+  margin: 4px;
+}
+
+/*do this in modal*/
+.toppart{
+  display: flex;
+  padding: 4px;
+  margin: 4px;
+  font-size: large;
+  font-weight: bold;
+}
+
+/*add shrink: 0*/
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -46,9 +63,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
+  margin: 16px;
   padding: 8px 16px;
   border-radius: 8px;
 }
